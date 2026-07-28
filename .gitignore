@@ -1,0 +1,39 @@
+# ==========================================
+# Jupyter Notebook Specifics
+# ==========================================
+# Ignore the hidden checkpoint directory where Jupyter auto-saves backups
+.ipynb_checkpoints/
+
+# Ignore Jupyter lab workspaces and state files
+.jupyter_local/
+*.ipynb_checkpoints
+
+# ==========================================
+# Python & Virtual Environments
+# ==========================================
+# Byte-compiled / optimized / DLL files (prevents Python cache clutter)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local virtual environments (if you installed packages locally)
+.venv/
+venv/
+env/
+ENV/
+
+# # ==========================================
+# # Data & Large Files (Highly recommended for MNIST)
+# # ==========================================
+# # If you download data files locally, keep them out of Git
+# *.csv
+# *.json
+# *.npz
+# *.npy
+# *.pkl
+# *.pickle
+
+# ==========================================
+# my ignores
+# ==========================================
+*.cp.ipynb
